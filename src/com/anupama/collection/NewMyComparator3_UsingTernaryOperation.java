@@ -27,6 +27,12 @@ public class NewMyComparator3_UsingTernaryOperation {
 		System.out.print(arrayList);
 		List<Integer> l = arrayList.stream().filter(i -> i%2 ==0).collect(Collectors.toList());
 		System.out.print(l);
+		System.out.print("---------------------------");
+		System.out.print(arrayList);
+		System.out.print("---------------------------");
+		System.out.print(arrayList.stream().collect(Collectors.toList()));
+		
+		
 	}
 
 }
